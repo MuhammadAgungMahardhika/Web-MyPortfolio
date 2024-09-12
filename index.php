@@ -17,18 +17,18 @@
 </head>
 <?php
 $projects = [
-    (object)['url' => 'https://apar.attendances.online/', 'image' => 'images/apar.jpg',  'title' => 'Web Apar Tourism Village', 'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer'],
+    (object)['url' => 'https://apar.attendances.online/', 'image' => 'images/apar2.jpg',  'title' => 'Web Apar Tourism Village', 'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer'],
     (object)['url' => 'https://stimik.herokuapp.com/', 'image' => 'images/2.png',  'title' => 'Web Design- Stimik Indonesia Festivals', 'description' => 'Landing web design with ocean theme by using
                                     HTML,CSS,Bootsrap,Javascript and Jquery'],
     (object)['url' => 'https://greenfoot.org/scenarios/25077', 'image' => 'images/3.png',  'title' => 'Game- Honey Bear Survive', 'description' => "A simple shooting game using Java with greenfoot's app"],
     (object)['url' => 'https://batubusuak.wordpress.com/', 'image' => 'images/4.png',  'title' => 'Blog- Batu Busuk Destination Tourism Web', 'description' => "A website that provide information of Batu Busuk destination
                                     Tourism in Lambung Bukit/ Pauh/ Padang City/ West Sumatra.
                                     By using Wordpress.com"],
-    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Aplikasi-Logistik-Gudang-Farmasi-Dinas-Kesehatan-Prov.Sumbar', 'image' => 'images/5.png',  'title' => 'Web Aplication- West Sumatra Provincial Health Service
+    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Aplikasi-Logistik-Gudang-Farmasi-Dinas-Kesehatan-Prov.Sumbar', 'image' => 'images/5.png',  'title' => 'Web Application- West Sumatra Provincial Health Service
                                     Pharmacy Logistics Application', 'description' => "A web application that can manage logistics goods in
                                     pharmacy warehouses using HTML, CSS, Bootstrap, Javascript,
                                     Jquery, PHP, Mysql server and other library/plugins"],
-    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Pafitness', 'image' => 'images/Android.jpeg',  'title' => 'Android- Gym Mobile Aplication', 'description' => "An android mobile aplication for searching gym in Padang City. By using Java, Firebase Auth, API, PostrgreSQL, Google Maps API"],
+    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Pafitness', 'image' => 'images/Android.jpeg',  'title' => 'Android- Gym Mobile Application', 'description' => "An android mobile Application for searching gym in Padang City. By using Java, Firebase Auth, API, PostrgreSQL, Google Maps API"],
 ];
 
 $contacts = [
