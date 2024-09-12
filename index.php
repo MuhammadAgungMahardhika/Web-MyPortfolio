@@ -17,7 +17,7 @@
 </head>
 <?php
 $projects = [
-    (object)['url' => 'https://apar.attendances.online/', 'image' => 'images/apar2.jpg',  'title' => 'Web Apar Tourism Village', 'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer'],
+    (object)['url' => 'https://apar.attendances.online/', 'image' => 'images/apar.png',  'title' => 'Web Apar Tourism Village', 'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer'],
     (object)['url' => 'https://stimik.herokuapp.com/', 'image' => 'images/2.png',  'title' => 'Web Design- Stimik Indonesia Festivals', 'description' => 'Landing web design with ocean theme by using
                                     HTML,CSS,Bootsrap,Javascript and Jquery'],
     (object)['url' => 'https://greenfoot.org/scenarios/25077', 'image' => 'images/3.png',  'title' => 'Game- Honey Bear Survive', 'description' => "A simple shooting game using Java with greenfoot's app"],
