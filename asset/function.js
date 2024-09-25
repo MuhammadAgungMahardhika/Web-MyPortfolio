@@ -23,7 +23,7 @@ jQuery(document).ready(function ($) {
     // Tentukan nilai berbeda untuk versi mobile
     var fotoSpeed = isMobile ? 8 : 6; // Lebih lambat di mobile
     var nameSpeed = isMobile ? 2 : 2; // Lebih lambat di mobile
-    var aboutMeSpeed = isMobile ? 24 : 6; // Sesuaikan kecepatan AboutMe agar tidak terlalu cepat
+    var aboutMeSpeed = isMobile ? 64 : 6; // Sesuaikan kecepatan AboutMe agar tidak terlalu cepat
 
     // Efek parallax
     $("#MyFoto").css({
