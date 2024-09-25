@@ -56,20 +56,6 @@ jQuery(document).ready(function ($) {
       $("#MyProjects .card ").removeClass("muncul");
     }
 
-    //parallax untuk tulisan My certificate
-
-    if (wScrool > $("#MyCertificates").offset().top - 500) {
-      $("#MyCertificates .efek3").addClass("Muncul");
-    }
-
-    //parallax efek pada card my certificate
-
-    if (wScrool > $("#MyCertificates").offset().top - 500) {
-      $("#MyCertificates .card ").addClass("muncul");
-    } else {
-      $("#MyCertificates .card ").removeClass("muncul");
-    }
-
     //parallax efek untuk tulisan contact
 
     if (wScrool > $("#MyContacts").offset().top - 500) {
