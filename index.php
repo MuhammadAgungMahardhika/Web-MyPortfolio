@@ -6,10 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <link href="/asset/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link href="asset/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
 
     <!-- Font Awesome -->
-    <script src="/asset/9d17737383.js" crossorigin="anonymous"></script>
+    <script src="asset/9d17737383.js" crossorigin="anonymous"></script>
 
     <!-- My CSS -->
     <link rel="stylesheet" href="style.css" />
@@ -17,19 +17,63 @@
 </head>
 <?php
 $projects = [
-    (object)['url' => 'https://apar.attendances.online/', 'image' => 'images/apar.png',  'title' => 'Web Apar Tourism Village', 'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer'],
-    (object)['url' => 'https://attendances.online/', 'image' => 'images/2.png',  'title' => 'Web Admin for Manage Mobile Attendance', 'description' => 'This web admin panel is designed to efficiently manage mobile attendance systems. It provides an intuitive interface for administrators to track, monitor, and manage employee or student attendance in real time. Built with modern web technologies such as HTML, CSS, Bootstrap, JavaScript, and jQuery. The platform allows for seamless integration with mobile attendance applications, ensuring accurate and streamlined record management.'],
-    (object)['url' => 'https://drive.google.com/drive/folders/13Fs_dSMqsfi_kqnTZ9nTqXM-fp2ZfWog?usp=sharing', 'image' => 'images/attendance.png',  'title' => 'Mobile App for Attendance with Geolocation', 'description' => 'This mobile attendance app utilizes geolocation features powered by the Google Maps API to accurately capture and verify attendance. The app allows employees or students to check in and out based on their geographical location, ensuring that they are present at designated areas. With real-time tracking and precise location data, this app provides an efficient and secure way to manage attendance. The geolocation feature integrates seamlessly with the admin panel for comprehensive record-keeping and management.'],
-    (object)['url' => 'https://greenfoot.org/scenarios/25077', 'image' => 'images/3.png',  'title' => 'Game- Honey Bear Survive', 'description' => "A simple shooting game using Java with greenfoot's app"],
-    (object)['url' => 'https://batubusuak.wordpress.com/', 'image' => 'images/4.png',  'title' => 'Blog- Batu Busuk Destination Tourism Web', 'description' => "A website that provide information of Batu Busuk destination
-                                    Tourism in Lambung Bukit/ Pauh/ Padang City/ West Sumatra.
-                                    By using Wordpress.com"],
-    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Aplikasi-Logistik-Gudang-Farmasi-Dinas-Kesehatan-Prov.Sumbar', 'image' => 'images/5.png',  'title' => 'Web Application- West Sumatra Provincial Health Service
-                                    Pharmacy Logistics Application', 'description' => "A web application that can manage logistics goods in
-                                    pharmacy warehouses using HTML, CSS, Bootstrap, Javascript,
-                                    Jquery, PHP, Mysql server and other library/plugins"],
-    (object)['url' => 'https://github.com/MuhammadAgungMahardhika/Pafitness', 'image' => 'images/Android.jpeg',  'title' => 'Android- Gym Mobile Application', 'description' => "An android mobile Application for searching gym in Padang City. By using Java, Firebase Auth, API, PostrgreSQL, Google Maps API"],
+    (object)[
+        'url' => 'https://dairyland.id/dairy-tour/',
+        'images' => ['images/dairyland.png', 'images/dairyland2.png'],
+        'title' => 'Web Revamp DairyLand (Chimory) ',
+        'description' => 'Revamp the DairyLand Website using <strong>Laravel 11, Livewire, Tailwind and Daisy UI</strong> Based on Figma Designed <strong>(On going)</strong>'
+    ],
+    (object)[
+        'url' => 'https://apar.attendances.online/',
+        'images' => ['images/apar1.png', 'images/apar2.png', 'images/apar3.png'],
+        'title' => 'Web Apar Tourism Village',
+        'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using <strong>CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer </strong>'
+    ],
+    (object)[
+        'url' => 'https://apar.attendances.online/',
+        'images' => ['images/apar1.png', 'images/apar2.png', 'images/apar3.png'],
+        'title' => 'Mobile Apar Tourism Village',
+        'description' => 'Mobile Version of Apar Tourism Village for more accurate GPS location. Built with <strong>Visual Basic VB4ndroid </strong>'
+    ],
+
+    (object)[
+        'url' => 'https://attendances.online/',
+        'images' => ['images/web-attendance.png', 'images/web-attendance2.png', 'images/web-attendance3.png'],
+        'title' => 'Web Admin for Manage Mobile Attendance',
+        'description' => 'This web admin panel is designed to efficiently manage mobile attendance systems. It provides an intuitive interface for administrators to track, monitor, and manage employee or student attendance in real time. Built with <strong>Laravel 10 </strong>. The platform allows for seamless integration with mobile attendance applications, ensuring accurate and streamlined record management.'
+    ],
+    (object)[
+        'url' => 'https://drive.google.com/drive/folders/13Fs_dSMqsfi_kqnTZ9nTqXM-fp2ZfWog?usp=sharing',
+        'images' => ['images/mobile-attendance.png'],
+        'title' => 'Mobile App for Attendance with Geolocation',
+        'description' => 'This mobile attendance app utilizes geolocation features powered by the Google Maps API to accurately capture and verify attendance. The app allows employees or students to check in and out based on their geographical location, ensuring that they are present at designated areas. With real-time tracking and precise location data, this app provides an efficient and secure way to manage attendance. Build with <strong>Java dan Android Studio </strong>'
+    ],
+    (object)[
+        'url' => 'https://greenfoot.org/scenarios/25077',
+        'images' => ['images/game-beruang.png', 'images/game-beruang2.png'],
+        'title' => 'Game - Honey Bear Survive',
+        'description' => "A simple shooting game using <strong>Java</strong> with greenfoot's app"
+    ],
+    (object)[
+        'url' => 'https://batubusuak.wordpress.com/',
+        'images' => ['images/web-batubusuak.png'],
+        'title' => 'Blog - Batu Busuk Destination Tourism Web',
+        'description' => "A website that provides information about Batu Busuk destination Tourism in Lambung Bukit, Padang City, West Sumatra, built with <strong>Wordpress.com</strong>"
+    ],
+    (object)[
+        'url' => 'https://github.com/MuhammadAgungMahardhika/Aplikasi-Logistik-Gudang-Farmasi-Dinas-Kesehatan-Prov.Sumbar',
+        'images' => ['images/web-logistik.png'],
+        'title' => 'Web Application - West Sumatra Provincial Health Service Pharmacy Logistics Application',
+        'description' => "A web application to manage logistics goods in pharmacy warehouses using <strong> PHP Native, Mysql </strong>"
+    ],
+    (object)[
+        'url' => 'https://github.com/MuhammadAgungMahardhika/Pafitness',
+        'images' => ['images/mobile-pafitnes.jpeg'],
+        'title' => 'Mobile Gym Application',
+        'description' => "An Android mobile application for searching gyms in Padang City. Built using <strong>Java, Firebase Auth, PostgreSQL, and Google Maps API. </strong>"
+    ]
 ];
+
 
 $contacts = [
     (object) ["url" => "https://muhammadagungmahardhika.wordpress.com/", "icon" => "fa-brands fa-wordpres"],
@@ -45,7 +89,6 @@ $certificates = [
     (object)["url" => "https://www.dicoding.com/certificates/JLX136K5GP72", "image" => "images/dicoding.jpg", "title" => "Cloud practitioner essentials (dasar AWS Cloud)"],
     (object)["url" => "https://www.dicoding.com/certificates/07Z65DELYXQR", "image" => "images/dicoding.jpg", "title" => "Membuat aplikasi Android untuk pemula"],
     (object)["url" => "https://certificates.revou.co/muhammadagung-mahardhika-certificate-completion-damc22.pdf", "image" => "images/revou.jpg", "title" => "Intro to Data Analytics"],
-
 ]
 ?>
 
@@ -57,16 +100,13 @@ $certificates = [
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-example" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbar-example">
+            <div class="collapse navbar-collapse justify-content-start show " id="navbar-example">
                 <ul class="nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#AboutMe">ABOUT ME</a>
+                        <a class="nav-link" href="">ABOUT ME</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#MyProjects">MY PROJECTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#MyCertificates">CERTIFICATES</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#MyContacts">GET IN TOUCH</a>
@@ -76,43 +116,60 @@ $certificates = [
         </nav>
 
         <!-- Akhir navigasi -->
-        <aside>
-            <figure class="row text-center" id="MyFoto">
-                <div class="col">
-                    <img class="rounded-circle" src="images/MyFoto.JPG" width="200" id="Foto" />
-                </div>
-            </figure>
+        <aside class="container" style="padding-top: 150px;">
+            <div class="row">
+                <div class="col-12 col-md-4 mb-4">
+                    <figure class="row text-center" id="MyFoto">
+                        <div class="col">
+                            <img class="rounded-circle" src="images/MyFoto.JPG" id="Foto" />
+                        </div>
+                    </figure>
 
-            <div class="row text-center" id="MyName">
-                <div class="col">
-                    <h1 class="NamaSaya">MUHAMMAD AGUNG MAHARDHIKA</h1>
+                    <div class="row text-center" id="MyName">
+                        <div class="col">
+                            <h1 class="NamaSaya">MUHAMMAD AGUNG MAHARDHIKA</h1>
+                        </div>
+                    </div>
                 </div>
+                <div class="col-12 col-md-8 ">
+                    <!-- About me -->
+                    <section class="container text-center efek1" id="AboutMe">
+                        <article class="row">
+                            <div class="col">
+                                <h2 class=" text-start mb-4">ABOUT ME</h2>
+                                <p style="text-align: left; ">
+                                    Hello! My name is Muhammad Agung Mahardhika. I'm a software engineer and a university graduate with a Bachelor's degree in Information Systems. I am currently open for a job with a strong background in software engineering and web development.
+                                </p>
+                                <p style="text-align: left">
+                                    Specializing in full-stack development, I have extensive experience in back-end development using Java and PHP. My expertise includes frameworks such as CodeIgniter 3, CodeIgniter 4, Laravel, Spring Boot, and Next.js. Additionally, I am proficient in Android Studio.
+                                </p>
+                                <p style="text-align: left">
+                                    Currently, I am employed at PT. Muda Medika Mandiri (Rskm Padang Eye Center) as a full-stack developer, managing SIMRS and EMR. I've excelled in optimizing internal tools and developing high-capacity APIs. I'm eager to contribute to a collaborative, cross-functional team where I can continue to grow and make a significant impact.
+                                </p>
+                                <p style="text-align: left">
+                                    I have also worked on several different projects ranging from location-based, IoT, mobile, and web applications. Additionally, I can convert Figma designs into applications.
+                                </p>
+                                <p style="text-align: left">Here are a few technologies I’ve been working with recently : </p>
+                            </div>
+
+                        </article>
+                    </section>
+                    <!-- Akhir About me -->
+                </div>
+
             </div>
         </aside>
 
-        <aside class="copyright">
+        <!-- <aside class="copyright">
             Image source
             <a href="https://pixabay.com/id/users/pexels-2286921/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868667">Pexels</a>
             dari
             <a href="https://pixabay.com/id/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=1868667">Pixabay</a>
-        </aside>
+        </aside> -->
     </header>
     <!-- Akhir header -->
 
     <main>
-        <!-- About me -->
-        <section class="container text-center" id="AboutMe">
-            <article class="row">
-                <h2 class="efek1">ABOUT ME</h2>
-                <div class="col">
-                    <p style="text-align: justify">
-                        Nama saya adalah Muhammad Agung Mahardhika. Saya berasal dari Kota
-                        Padang Sumatra Barat. Saat ini saya sedang berkuliah di jurusan Sistem Informasi Universitas Andalas. Saya sangat menggemari programing dalam bidang Web Developing terutama pada bagian Front-end. Saya bercita-cita menjadi seorang Front-end Developer professional.
-                    </p>
-                </div>
-            </article>
-        </section>
-        <!-- Akhir About me -->
 
         <!-- My Projects -->
         <section class="container text-center" id="MyProjects">
@@ -120,16 +177,29 @@ $certificates = [
                 <h2 class="efek2">MY PROJECTS</h2>
                 <div class="col allcard">
                     <?php foreach ($projects as $project) : ?>
-                        <div class="card" style="width: 18rem">
+                        <div class="card bg-light" style="width: 18rem">
                             <a href="<?= $project->url ?>">
-                                <img src="<?= $project->image ?>" class="card-img-top" alt="..." style="height: 200px; object-fit: contain; width: 100%;" />
+                                <!-- Bootstrap Carousel -->
+                                <div id="carousel-<?= md5($project->title) ?>" class="carousel slide" data-bs-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <?php foreach ($project->images as $index => $image) : ?>
+                                            <div class="carousel-item <?= $index === 0 ? 'active' : '' ?>">
+                                                <img src="<?= $image ?>" class="d-block  w-100" alt="..." style="height: 150px; object-fit: contain; " loading="lazy">
+                                            </div>
+                                        <?php endforeach; ?>
+                                    </div>
+                                    <button class=" carousel-control-prev" type="button" data-bs-target="#carousel-<?= md5($project->title) ?>" data-bs-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Previous</span>
+                                    </button>
+                                    <button class="carousel-control-next" type="button" data-bs-target="#carousel-<?= md5($project->title) ?>" data-bs-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="visually-hidden">Next</span>
+                                    </button>
+                                </div>
                                 <div class="card-body">
-                                    <h5 class="card-title">
-                                        <?= $project->title ?>
-                                    </h5>
-                                    <p class="card-text">
-                                        <?= $project->description ?>
-                                    </p>
+                                    <h5 class="card-title"><?= $project->title ?></h5>
+                                    <p class="card-text"><?= $project->description ?></p>
                                 </div>
                             </a>
                         </div>
@@ -138,29 +208,6 @@ $certificates = [
             </div>
         </section>
         <!-- Akhir My Projects -->
-
-        <!-- Awal My Certificate -->
-        <section class="container text-center" id="MyCertificates">
-            <div class="row">
-                <h2 class="efek3">CERTIFICATES</h2>
-                <div class="col allcertificate">
-                    <?php foreach ($certificates as $certificate): ?>
-                        <div class="card" style="width: 18rem">
-                            <a href="<?= $certificate->url ?>">
-                                <img src="<?= $certificate->image ?>" class="card-img-top" alt="..." sizes="300" />
-                                <div class="card-body">
-                                    <p class="card-title"><?= $certificate->title ?></p>
-                                </div>
-                                <div class="star">
-                                    <i class="fa fa-star fa-2x"></i>
-                                </div>
-                            </a>
-                        </div>
-                    <?php endforeach ?>
-                </div>
-            </div>
-        </section>
-        <!-- Akhir My Cerficate -->
 
         <!-- My Contacts -->
         <section class="container-fluid text-center" id="MyContacts">
@@ -176,11 +223,9 @@ $certificates = [
         <!-- Akhir My Contacts -->
     </main>
     <!-- Akhir main -->
-
-
-    <script src="/asset/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="/asset/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-    <script src="/asset/function.js"></script>
+    <script src="asset/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="asset/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="asset/function.js"></script>
 </body>
 
 </html>
