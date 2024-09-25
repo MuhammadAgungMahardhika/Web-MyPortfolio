@@ -21,8 +21,8 @@ jQuery(document).ready(function ($) {
     var isMobile = window.innerWidth <= 768; // Cek apakah mobile
 
     // Tentukan nilai berbeda untuk versi mobile
-    var fotoSpeed = isMobile ? 8 : 6; // Lebih lambat di mobile
-    var nameSpeed = isMobile ? 2 : 2; // Lebih lambat di mobile
+    var fotoSpeed = isMobile ? 24 : 6; // Lebih lambat di mobile
+    var nameSpeed = isMobile ? 8 : 2; // Lebih lambat di mobile
     var aboutMeSpeed = isMobile ? 64 : 6; // Sesuaikan kecepatan AboutMe agar tidak terlalu cepat
 
     // Efek parallax
