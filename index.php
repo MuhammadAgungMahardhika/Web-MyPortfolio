@@ -122,7 +122,7 @@ $certificates = [
                     <?php foreach ($projects as $project) : ?>
                         <div class="card" style="width: 18rem">
                             <a href="<?= $project->url ?>">
-                                <img src="<?= $project->image ?>" class="card-img-top" alt="..." sizes="300" />
+                                <img src="<?= $project->image ?>" class="card-img-top" alt="..." height="200" />
                                 <div class="card-body">
                                     <h5 class="card-title">
                                         <?= $project->title ?>
