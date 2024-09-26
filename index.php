@@ -20,8 +20,26 @@ $projects = [
     (object)[
         'url' => 'https://dairyland.id/dairy-tour/',
         'images' => ['images/dairyland.png', 'images/dairyland2.png'],
-        'title' => 'Web Revamp DairyLand (Chimory) ',
+        'title' => 'Web Revamp DairyLand ',
         'description' => 'Revamp the DairyLand Website using <strong>Laravel 11, Livewire, Tailwind and Daisy UI</strong> Based on Figma Designed <strong>(On going)</strong>'
+    ],
+    (object)[
+        'url' => 'https://dairyland.id/dairy-tour/',
+        'images' => ['images/dairyland.png', 'images/dairyland2.png'],
+        'title' => 'Web SIMRS and Electronic Medical Record for Padang Eye Center',
+        'description' => 'The SIMRS and EMR systems developed for Padang Eye Center are designed to enhance hospital management and patient care by integrating seamlessly with <strong> BPJS and Satu Sehat platforms </strong>. <strong>Utilizing Laravel 11 and Livewire </strong>, the project encompasses several key modules, including <strong>registration, polyclinic, medical records, laboratory, pharmacy, and cashier </strong>. These modules streamline patient registration, facilitate efficient management of polyclinic services, and ensure comprehensive medical record keeping. <strong>(On going)</strong>'
+    ],
+    (object)[
+        'url' => 'https://farmweb.technosv.muy.id/',
+        'images' => ['images/farmweb.png', 'images/farmweb2.png'],
+        'title' => 'Web Smart Broiler Farm ',
+        'description' => '<strong>IOT</strong> Website that provides the realtime sensors such as temperature, humidity and amonia from the broiler farm to website in realtime using <strong> Laravel 10 , ESP32 and Websocket </strong>'
+    ],
+    (object)[
+        'url' => 'https://github.com/MuhammadAgungMahardhika/Web-pemilihan-mahasiswa-berprestasi',
+        'images' => ['images/pilmapres.png', 'images/pilmapres2.png', 'images/pilmapres3.png'],
+        'title' => 'Web Selection of Outstanding Student at Andalas University',
+        'description' => 'The Outstanding Student Selection application, developed using <strong>Laravel 10</strong>, serves as an innovative platform to recognize and honor students excelling in both academic and extracurricular activities. This project involves <strong> multiple users and six key actors </strong>: students, department administrators, faculty administrators, university administrators, faculty judges, and university judges. The site facilitates online registration, document uploads, and transparent announcement of results, ultimately fostering a supportive academic community that encourages all students to strive for excellence.'
     ],
     (object)[
         'url' => 'https://apar.attendances.online/',
@@ -30,8 +48,8 @@ $projects = [
         'description' => 'Website that allow you to pre trip with google maps api to Apar Tourism Village using <strong>CodeIgniter 4, PHP, Javascript/Jquery and Google Maps API Developer </strong>'
     ],
     (object)[
-        'url' => 'https://apar.attendances.online/',
-        'images' => ['images/apar1.png', 'images/apar2.png', 'images/apar3.png'],
+        'url' => 'https://github.com/MuhammadAgungMahardhika/Mobile-Gis-Desa-Wisata-Apar',
+        'images' => ['images/mobile-apar.png', 'images/mobile-apar2.png'],
         'title' => 'Mobile Apar Tourism Village',
         'description' => 'Mobile Version of Apar Tourism Village for more accurate GPS location. Built with <strong>Visual Basic VB4ndroid </strong>'
     ],
@@ -144,12 +162,13 @@ $certificates = [
                                     Specializing in full-stack development, I have extensive experience in back-end development using Java and PHP. My expertise includes frameworks such as CodeIgniter 3, CodeIgniter 4, Laravel, Spring Boot, and Next.js. Additionally, I am proficient in Android Studio.
                                 </p>
                                 <p style="text-align: left">
+                                    I graduated Bootcamp program from PT Xsis Mitra Utama (Indosat) for Microservices Application using SpringBoot .
                                     Currently, I am employed at PT. Muda Medika Mandiri (Rskm Padang Eye Center) as a full-stack developer, managing SIMRS and EMR. I've excelled in optimizing internal tools and developing high-capacity APIs. I'm eager to contribute to a collaborative, cross-functional team where I can continue to grow and make a significant impact.
                                 </p>
                                 <p style="text-align: left">
                                     I have also worked on several different projects ranging from location-based, IoT, mobile, and web applications. Additionally, I can convert Figma designs into applications.
                                 </p>
-                                <p style="text-align: left">Here are a few technologies I’ve been working with recently : </p>
+                                <p style="text-align: left">As a software developer, I enjoy learning new technologies and continuously seek to grow and improve my skills</p>
                             </div>
 
                         </article>
@@ -175,6 +194,7 @@ $certificates = [
         <section class="container text-center" id="MyProjects">
             <div class="row">
                 <h2 class="efek2">MY PROJECTS</h2>
+                <p class="text-light">"Some projects may be running locally or may no longer be operational as their hosting has expired."</p>
                 <div class="col allcard">
                     <?php foreach ($projects as $project) : ?>
                         <div class="card bg-light" style="width: 18rem">
